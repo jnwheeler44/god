@@ -14,6 +14,9 @@ Keeping your server processes and tasks running should be a simple part of
 your deployment process. God aims to be the simplest, most powerful monitoring
 application available.
 
+This branch of God uses ActiveSupport in place of the Numeric Sugar, so
+bytes are the default memory measurement.
+
 Documentation
 -------------
 

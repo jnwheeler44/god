@@ -20,7 +20,7 @@ module God
         !!::Process.kill(0, @pid) rescue false
       end
 
-      # Memory usage in kilobytes (resident set size)
+      # Memory usage in bytes (resident set size)
       def memory
         @poller.memory
       end

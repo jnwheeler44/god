@@ -117,7 +117,7 @@ module God
     #                           :process_running conditions (if used).
     #                           Default: 5.seconds.
     #           :memory_max   - The Integer memory max. A bare integer means
-    #                           kilobytes. You may use Numeric.kilobytes,
+    #                           bytes. You may use Numeric.kilobytes,
     #                           Numeric#megabytes, and Numeric#gigabytes to
     #                           makes things more clear.
     #           :memory_times - If :memory_max is set, :memory_times can be

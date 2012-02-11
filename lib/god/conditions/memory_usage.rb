@@ -10,7 +10,7 @@ module God
     #   Required
     #     +pid_file+ is the pid file of the process in question. Automatically
     #                populated for Watches.
-    #     +above+ is the amount of resident memory (in kilobytes) above which
+    #     +above+ is the amount of resident memory (in bytes) above which
     #             the condition should trigger. You can also use the sugar
     #             methods #kilobytes, #megabytes, and #gigabytes to clarify
     #             this amount (see examples).
